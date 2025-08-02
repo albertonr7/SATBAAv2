@@ -1,0 +1,21 @@
+contenido:
+  funcionalidad:
+    texto: Calcula niveles de riesgo (bajo, medio, alto) de aparición de roya usando
+      modelos agroclimáticos basados en temperatura y humedad.
+    titulo: ¿Qué hace?
+  introduccion:
+    texto: Es una herramienta predictiva que utiliza variables meteorológicas para
+      estimar condiciones favorables para el desarrollo de la roya del café.
+    titulo: ¿Qué es el Semáforo de la Roya?
+  objetivo:
+    texto: Apoyar a caficultores en la toma de decisiones para prevenir o mitigar
+      brotes de roya.
+    titulo: Objetivo
+resumen:
+  titulo: Semáforo de la Roya del Café
+  color: green
+  descripcion: Estima la probabilidad de la presencia de roya en las matas de café
+    a partir de datos climáticos.
+  logo: src/img/SCC-Light-Icon.png
+  mostrar: true
+slug: SRC

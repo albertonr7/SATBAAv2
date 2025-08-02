@@ -1,0 +1,6 @@
+# Configuración del pie de página
+footer:
+  prefix: "Copyright"
+  symbol: "©"
+  organization: "bdi-dr"
+  project: "SATBAA"

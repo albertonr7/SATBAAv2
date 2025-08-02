@@ -1,0 +1,20 @@
+contenido:
+  funcionalidad:
+    texto: Consulta, integra y expone información oficial sobre eventos naturales
+      a través de endpoints especializados.
+    titulo: ¿Qué hace?
+  introduccion:
+    texto: Es una interfaz que integra datos oficiales sobre monitoreo ambiental,
+      incluyendo eventos hidrometeorológicos y geológicos.
+    titulo: ¿Qué es la API de Eventos Naturales?
+  objetivo:
+    texto: Facilitar el acceso a datos ambientales relevantes para la gestión del
+      riesgo y la toma de decisiones informadas.
+    titulo: Objetivo
+resumen:
+  titulo: API de Eventos Naturales
+  color: teal
+  descripcion: Integra información de datos de monitoreo ambiental oficiales.
+  logo: src/img/APIEN-Light-Icon.png
+  mostrar: true
+slug: APIEN

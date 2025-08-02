@@ -1,0 +1,65 @@
+# Configuración de barra de navegación
+logo:
+  src: “/src/img/SATBAA-Light-Horizontal-Primary.png”
+  alt: “SATBAA Logo”
+  homeRoute: “/”
+
+# Definición de tabs principales y submenús
+tabs:
+  - name: “proyecto”
+    label: “Proyecto”
+    route: “/ProyectoInvestigacion”
+    type: “simple”
+
+  - name: "aplicaciones"
+    label: "Aplicaciones"
+    type: "dropdown"
+    submenu:
+      - name: "srp"
+        label: "Semáforo Riesgo Personal"
+        route: "/SRP"
+      - name: "src"
+        label: "Semáforo de la Roya del Café"
+        route: "/SRC"
+      - name: "apienv"
+        label: "API Eventos Naturales"
+        route: "/APIEN"
+
+  - name: "divulgacion"
+    label: "Divulgación"
+    type: "dropdown"
+    submenu:
+      - name: "articulos"
+        label: "Artículos"
+        route: "/Articulos"
+      - name: "carteles"
+        label: "Infografías y Carteles"
+        route: "/Carteles"
+      - name: "conferencias"
+        label: "Conferencias"
+        route: "/Conferencias"
+
+  - name: "colaboradores"
+    label: "Colaboradores"
+    route: "/Colaboradores"
+    type: "simple"
+
+  - name: "seminario"
+    label: "Seminario IA y PS"
+    route: "/SeminarioIAyPS"
+    type: "simple"
+
+  - name: "contacto"
+    label: "Contacto"
+    route: "/Contacto"
+    type: "simple"
+
+# Configuración de responsive breakpoints
+responsive:
+mobileBreakpoint: “md” # Quasar breakpoint
+drawerWidth: 280
+
+# Configuración de accesibilidad
+accessibility:
+  menuButtonLabel: “Abrir menú”
+  logoButtonLabel: “Ir al inicio”

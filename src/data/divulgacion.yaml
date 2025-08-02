@@ -1,0 +1,11 @@
+- label: Animaciones
+  img: src/img/cafe.png
+  to: #
+
+- label: Infografías
+  img: src/img/infoPC.png
+  to: /Carteles
+
+- label: Textos científicos
+  img: src/img/tc.png
+  to: /Articulos

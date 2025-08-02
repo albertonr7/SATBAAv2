@@ -1,0 +1,21 @@
+contenido:
+  funcionalidad:
+    texto: Evalúa variables como edad, salud, entorno y acceso a recursos para calcular
+      un índice de riesgo y categorizarlo como bajo, medio o alto.
+    titulo: ¿Qué hace?
+  introduccion:
+    texto: Es una herramienta que mide la vulnerabilidad individual ante desastres
+      naturales considerando factores personales y sociales.
+    titulo: ¿Qué es el Semáforo de Riesgo Personal?
+  objetivo:
+    texto: Brindar una estimación del nivel de riesgo personal para fortalecer la
+      autoprotección y planificación familiar.
+    titulo: Objetivo
+resumen:
+  titulo: Semáforo de Riesgo Personal
+  color: orange
+  descripcion: Permite calcular el índice de riesgo (IR) que presenta una persona
+    ante un desastre natural.
+  logo: src/img/SRP-Light-Icon.png
+  mostrar: true
+slug: SRP

@@ -53,10 +53,11 @@ export default defineConfig((/* ctx */) => {
       // polyfillModulePreload: true,
       // distDir
 
-      // extendViteConf (viteConf) {},
+      // extendViteConf (viteConf) {}
       // viteVuePluginOptions: {},
 
       vitePlugins: [
+        ['@modyfi/vite-plugin-yaml'],
         [
           'vite-plugin-checker',
           {
@@ -73,12 +74,15 @@ export default defineConfig((/* ctx */) => {
     // Full list of options: https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#devserver
     devServer: {
       // https: true,
-      open: true, // opens browser window automatically
+      open: {
+        app: { name: 'Firefox' }, // opens browser window with specified app
+      }
     },
 
     // https://v2.quasar.dev/quasar-cli-vite/quasar-config-file#framework
     framework: {
       config: {},
+      autoImportComponentCase: 'combined',
 
       // iconSet: 'material-icons', // Quasar icon set
       // lang: 'en-US', // Quasar language pack
