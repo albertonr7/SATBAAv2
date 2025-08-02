@@ -1,8 +1,8 @@
 <template>
   <q-card flat bordered class="card-clickeable" @click="ir">
     <q-img :src="img" ratio="16/9" class="card-img" />
-    <q-card-section class="flex card-label" style="min-height: 80px">
-      <q-btn flat class="text-h6 primer-mayuscula" style="width: 100%" :to="to">
+    <q-card-section class="flex card-label card-label-container">
+      <q-btn flat class="text-h6 primer-mayuscula card-button" :to="to">
         {{ label }}
       </q-btn>
     </q-card-section>
@@ -51,5 +51,14 @@ const ir = () => {
   font-weight: 500;
   font-size: 1.05rem;
   padding: 12px 8px;
+}
+
+// Estilos migrados desde inline
+.card-label-container {
+  min-height: 80px;
+}
+
+.card-button {
+  width: 100%;
 }
 </style>
