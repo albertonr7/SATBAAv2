@@ -293,7 +293,7 @@ const disciplinesImageSrc = computed(() => {
   text-align: center;
   margin-bottom: 48px;
   font-weight: bold;
-  color: #61c2d7;
+  color: $secondary;
 }
 
 // Sección artículos
