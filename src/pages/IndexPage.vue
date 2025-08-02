@@ -200,7 +200,7 @@ const disciplinesImageSrc = computed(() => {
 
 // Sección header
 .header-section {
-  background: var(--q-primary);
+  background: $primary;
   padding: 48px 24px;
   margin-bottom: 48px;
   position: relative;
@@ -213,7 +213,7 @@ const disciplinesImageSrc = computed(() => {
 
 .header-title {
   font-size: 2.125rem;
-  color: var(--q-secondary);
+  color: $secondary;
   font-weight: bold;
   margin-bottom: 8px;
 }
@@ -241,7 +241,7 @@ const disciplinesImageSrc = computed(() => {
 }
 
 .intro-button {
-  background-color: var(--q-secondary);
+  background-color: $secondary;
   margin-top: 16px;
 }
 
@@ -254,7 +254,7 @@ const disciplinesImageSrc = computed(() => {
   font-weight: bold;
   font-size: 2.125rem;
   margin-top: 24px;
-  color: #61c2d7;
+  color: $secondary;
 }
 
 .objective-content {
@@ -279,7 +279,7 @@ const disciplinesImageSrc = computed(() => {
 }
 
 .benefits-button {
-  background-color: var(--q-secondary);
+  background-color: $secondary;
   font-weight: bold;
 }
 
@@ -307,7 +307,7 @@ const disciplinesImageSrc = computed(() => {
   margin-bottom: 48px;
   margin-top: 24px;
   font-weight: bold;
-  color: #61c2d7;
+  color: $secondary;
 }
 
 .articles-more-container {
@@ -316,7 +316,7 @@ const disciplinesImageSrc = computed(() => {
 }
 
 .articles-more-button {
-  background-color: var(--q-secondary);
+  background-color: $secondary;
   width: 100%;
   max-width: 320px;
   min-height: 72px;
@@ -332,7 +332,7 @@ const disciplinesImageSrc = computed(() => {
   text-align: center;
   margin-bottom: 48px;
   font-weight: bold;
-  color: #61c2d7;
+  color: $secondary;
 }
 
 // Sección divulgación
@@ -345,7 +345,7 @@ const disciplinesImageSrc = computed(() => {
   text-align: center;
   margin-bottom: 48px;
   font-weight: bold;
-  color: #61c2d7;
+  color: $secondary;
 }
 
 // Sección disciplinas
@@ -358,7 +358,7 @@ const disciplinesImageSrc = computed(() => {
   text-align: center;
   margin-bottom: 48px;
   font-weight: bold;
-  color: #61c2d7;
+  color: $secondary;
 }
 
 .disciplines-image-container {
@@ -381,7 +381,7 @@ const disciplinesImageSrc = computed(() => {
   text-align: center;
   margin-bottom: 48px;
   font-weight: bold;
-  color: #61c2d7;
+  color: $secondary;
 }
 
 // Clase helper para componentes con altura completa
