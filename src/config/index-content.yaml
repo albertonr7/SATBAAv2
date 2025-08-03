@@ -4,8 +4,8 @@ index:
   header:
     title: "SATBAA"
     subtitle: "Sistema de Alerta Temprana Basada en Agentes Autónomos"
-    image: "/src/img/Inicio_SitioWeb.png"
-    
+    image: "Inicio_SitioWeb.png"
+
   # Sección introducción
   introduction:
     title: "Introducción"
@@ -15,12 +15,12 @@ index:
       - "Afortunadamente, los diversos avances tecnológicos han permitido acercarnos a la identificación de causas y circunstancias asociadas a su origen y a la frecuencia con la que ocurren, como ejemplo tenemos a los Sistemas de Seguridad y Alerta Temprana de Riesgos (SSATR)."
       - "Este proyecto se orienta al desarrollo de un sistema de detección y alerta oportuna de desastres naturales y antrópicos, que provea ayuda en la toma de decisiones a dos tipos de usuarios: **a) víctimas y b) equipos de respuesta y gestión de desastres…**"
     buttonText: "Saber más"
-    
+
   # Objetivo general
   objective:
     title: "Objetivo General"
     content: "Desarrollar un SSATR basado en un Sistema Multi‑Agente compuesto por agentes heterogéneos (cognitivos y reactivos), objetos y artefactos, que identifique riesgos y amenazas personales y colectivas con base en un modelo computacional de interacción que comprenda personas y otros sistemas informáticos, que actúe en beneficio de los usuarios y salvaguarde la integridad de los datos de estos."
-    
+
   # Beneficios
   benefits:
     title: "Beneficios"
@@ -33,7 +33,7 @@ index:
         description: "Apoyar a los tomadores de decisiones para mejorar las condiciones de seguridad y gestión del riesgo."
     buttonText: "Ver objetivos específicos"
     buttonRoute: "/ProyectoInvestigacion"
-    
+
   # Aplicaciones desarrolladas
   applications:
     title: "Aplicaciones desarrolladas"
@@ -50,7 +50,7 @@ index:
         image: "/src/img/SRP-Light-Icon.png"
         description: "Permite calcular el índice de riesgo (IR) que presenta una persona ante un desastre natural a través..."
         route: "/PagSrp"
-        
+
   # Artículos y publicaciones
   articles:
     title: "Artículos y publicaciones"
@@ -67,7 +67,7 @@ index:
         route: "/PagArticulo2"
     moreArticlesText: "Ver más publicaciones"
     moreArticlesRoute: "/PagArticulos"
-    
+
   # Disciplinas y tecnologías
   disciplines:
     title: "Disciplinas y tecnologías"
@@ -75,7 +75,7 @@ index:
     paragraphs:
       - "Aunque este proyecto podría englobarse dentro de la disciplina de Ciencias de la Computación, vale la pena señalar que por la naturaleza del problema es de carácter interdisciplinario."
       - "Por estar fuertemente relacionado su proceso con la indagación, desarrollo y evaluación con el Diseño Centrado en el Usuario, tiene fuerte presencia del Diseño de Interfaces e Interacción y la Ergonomía Cognitiva, ya que se relaciona con usuarios reales, la Usabilidad, la Inteligencia Artificial, las Tecnologías Inmersivas, las interacciones Humano‑Computadora y el Cómputo Ubicuo."
-      
+
   # Equipo de colaboradores
   team:
     title: "Equipo de colaboradores"

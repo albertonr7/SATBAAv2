@@ -100,7 +100,7 @@
     <section class="applications-dynamic-section" data-test="applications-dynamic-section">
       <div class="q-pa-xl">
         <div class="applications-dynamic-title">Aplicaciones Desarrolladas</div>
-        <div class="row q-gutter-md justify-start items-stretch">
+        <div class="row q-gutter-md justify-center items-stretch">
           <div v-for="proyecto in proyectos" :key="proyecto.slug" class="col-12 col-sm-6 col-md-4 col-lg-3 full-height"
             :data-test="`dynamic-project-${proyecto.slug}`">
             <TarjetaProyecto :proyecto="proyecto" class="full-height full-width" />
@@ -176,11 +176,11 @@ import SRP from 'src/data/proyecto/SRP.yaml'
 
 // Configuración desde YAML
 const content = indexContent.index
-const proyectos = [APIEN, SRC, SRP, APIEN, SRC, SRP]
+const proyectos = [APIEN, SRC, SRP]
 
 // Computed properties para imágenes
 const headerImageSrc = computed(() => {
-  return new URL(content.header.image, import.meta.url).href
+  return new URL(`../assets/images/sections/${content.header.image}`, import.meta.url).href
 })
 
 const introImageSrc = computed(() => {

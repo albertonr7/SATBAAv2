@@ -1,15 +1,15 @@
 # Configuración de barra de navegación
 logo:
-  src: “/src/img/SATBAA-Light-Horizontal-Primary.png”
-  alt: “SATBAA Logo”
-  homeRoute: “/”
+  src: "SATBAA-Light-Horizontal-Primary.png"
+  alt: "SATBAA Logo"
+  homeRoute: "/"
 
 # Definición de tabs principales y submenús
 tabs:
-  - name: “proyecto”
-    label: “Proyecto”
-    route: “/ProyectoInvestigacion”
-    type: “simple”
+  - name: "proyecto"
+    label: "Proyecto"
+    route: "/ProyectoInvestigacion"
+    type: "simple"
 
   - name: "aplicaciones"
     label: "Aplicaciones"
@@ -56,10 +56,10 @@ tabs:
 
 # Configuración de responsive breakpoints
 responsive:
-mobileBreakpoint: “md” # Quasar breakpoint
+mobileBreakpoint: "md" # Quasar breakpoint
 drawerWidth: 280
 
 # Configuración de accesibilidad
 accessibility:
-  menuButtonLabel: “Abrir menú”
-  logoButtonLabel: “Ir al inicio”
+  menuButtonLabel: "Abrir menú"
+  logoButtonLabel: "Ir al inicio"

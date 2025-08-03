@@ -17,16 +17,33 @@
     <q-separator />
 
     <q-card-actions align="center" class="bg-grey-1 q-mt-auto">
-      <q-btn :to="proyecto.slug" color="primary" label="Ver más" no-caps flat />
+      <q-btn @click="navigateToProject" color="primary" no-caps flat>
+        Ver más
+      </q-btn>
     </q-card-actions>
   </q-card>
 </template>
 
 <script setup>
-defineProps({
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+
+const props = defineProps({
   proyecto: {
     type: Object,
     required: true
   }
 });
+
+const navigateToProject = async () => {
+  try {
+    // Navegación con promise para manejar errores
+    await router.push(`/Proyecto/${props.proyecto.slug}`)
+  } catch (error) {
+    console.error('Navigation failed:', error)
+    // Fallback con window.location si router falla
+    window.location.href = `/Proyecto/${props.proyecto.slug}`
+  }
+}
 </script>

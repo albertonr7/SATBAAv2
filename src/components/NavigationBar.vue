@@ -80,8 +80,9 @@ const isDrawerOpen = ref(false)
 // Computed properties
 const isMobile = computed(() => !$q.screen.gt["md"])
 
+//const logoSrc = ref('/assets/images/navigation/' + config.logo.src)
 const logoSrc = computed(() => {
-  return new URL(config.logo.src, import.meta.url).href
+  return new URL(`../assets/images/navigation/${config.logo.src}`, import.meta.url).href
 })
 
 const navigationTabs = computed(() => {

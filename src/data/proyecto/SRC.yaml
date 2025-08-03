@@ -1,21 +1,138 @@
-contenido:
-  funcionalidad:
-    texto: Calcula niveles de riesgo (bajo, medio, alto) de aparición de roya usando
-      modelos agroclimáticos basados en temperatura y humedad.
-    titulo: ¿Qué hace?
-  introduccion:
-    texto: Es una herramienta predictiva que utiliza variables meteorológicas para
-      estimar condiciones favorables para el desarrollo de la roya del café.
-    titulo: ¿Qué es el Semáforo de la Roya?
-  objetivo:
-    texto: Apoyar a caficultores en la toma de decisiones para prevenir o mitigar
-      brotes de roya.
-    titulo: Objetivo
+# SRC.yaml - Semáforo de la Roya del Café (CORREGIDO)
+slug: "SRC"
+titulo: "Semáforo de la Roya del Café"
+categoria: "Aplicación Web de Monitoreo Agrícola"
+estado: "En desarrollo"
+responsable: "Dr. Wenceslao Luna"
+email_contacto: "wluna@cua.uam.mx"
+
 resumen:
-  titulo: Semáforo de la Roya del Café
-  color: green
-  descripcion: Estima la probabilidad de la presencia de roya en las matas de café
-    a partir de datos climáticos.
-  logo: src/img/SCC-Light-Icon.png
-  mostrar: true
-slug: SRC
+  titulo: "Semáforo de la Roya del Café (SRC)"
+  descripcion: "Una aplicación web que estima la probabilidad de la presencia de roya en matas de café a partir de datos colectados in situ referentes a valores e indicadores de su fenología."
+  logo: "SCC-Light-Icon.png"
+  icono: "mdi-coffee"
+  color: "#63a030"
+
+contenido:
+  introduccion: |
+    La planta del café puede ser dañada por diversas plagas y enfermedades, las cuales se ven 
+    favorecidas o inhibidas por condiciones climáticas, estas plagas podrían incrementar su 
+    distribución en un intervalo altitudinal, contagiando plantaciones a un nivel global.
+
+  descripcion_principal: |
+    El Semáforo de la Roya del Café (SRC) es una aplicación web que estima la probabilidad de 
+    la presencia de roya en matas de café a partir de datos colectados in situ referentes a 
+    valores e indicadores de su fenología (humedad relativa, temperatura y fecha de lectura). 
+    Ofrece un panel de visualización de las estimaciones, los indicadores y variables de los 
+    plantíos de café monitoreados.
+
+  funcionalidades: |
+    El SRC permite cargar nuevos datos a los cuales aplicar los distintos algoritmos y modelos 
+    para su análisis, o bien se puede explorar los bancos de datos que integran la colección 
+    de la aplicación.
+
+  objetivo_general: |
+    Desarrollar una herramienta de monitoreo y predicción para estimar la probabilidad de 
+    presencia de roya del café utilizando variables fenológicas y datos climáticos, contribuyendo 
+    a la protección de plantaciones a nivel global.
+
+  beneficios:
+    - titulo: "Información Pertinente"
+      descripcion: "Proporcionar información pertinente a los usuarios para mejorar las condiciones de las víctimas de un evento desastroso que los lleve a evitar el peligro y minimizar el riesgo."
+      icono: "feed"
+
+    - titulo: "Eficiencia en Equipos"
+      descripcion: "Aumentar la eficiencia y coordinación de los equipos de emergencia durante sus intervenciones."
+      icono: "diversity_2"
+
+    - titulo: "Apoyo a Tomadores de Decisiones"
+      descripcion: "Apoyar a los tomadores de decisiones que les permita mejorar las condiciones de seguridad y gestión del riesgo."
+      icono: "group_add"
+
+  metodologia: |
+    La aplicación utiliza algoritmos y modelos de machine learning para analizar datos de:
+    - Humedad relativa del ambiente
+    - Temperatura en diferentes horarios
+    - Fecha de lectura y variables temporales
+    - Indicadores fenológicos específicos del café
+
+    Los datos son procesados mediante algoritmos especializados para generar estimaciones precisas 
+    de probabilidad de presencia de roya y visualizaciones interactivas para el monitoreo continuo 
+    de plantaciones cafetaleras.
+
+  tecnologias:
+    - "Algoritmos de Machine Learning para Predicción"
+    - "Panel de Visualización Interactiva"
+    - "Análisis de Variables Fenológicas"
+    - "Base de Datos de Plantaciones Cafetaleras"
+    - "API de Procesamiento de Datos Climáticos"
+    - "Sistema de Monitoreo en Tiempo Real"
+
+  recursos:
+    codigo:
+      titulo: "Código"
+      descripcion: "El código está disponible a petición, favor de entrar al siguiente enlace:"
+      enlace: "mailto:wluna@cua.uam.mx"
+      tipo: "email"
+
+    demo:
+      titulo: "Demo"
+      descripcion: "Video demostrativo de la aplicación"
+      enlace: "https://www.youtube.com/embed/"
+      tipo: "video"
+
+    aplicacion:
+      titulo: "APP"
+      descripcion: "Prueba la aplicación aquí"
+      enlace: "#"
+      tipo: "web"
+
+  animaciones:
+    - titulo: "Demostración SRC"
+      descripcion: "Video explicativo del funcionamiento del Semáforo de la Roya del Café"
+      enlace: "https://player.vimeo.com/video/1064839650"
+      tipo: "vimeo"
+
+  infografias:
+    - titulo: "Cálculo IRP Usuario B"
+      archivo: "CalculoIRP_UsuarioB.jpg"
+      categoria: "Proceso"
+
+    - titulo: "Desarrollo del Fruto del Café Usuario A"
+      archivo: "DesarrolloDelFrutoDelCafe_UsuarioA.jpg"
+      categoria: "Fenología"
+
+    - titulo: "Etapas Fenológicas del Fruto del Café Usuario B"
+      archivo: "EtapasFenologicasDelFrutoDelCafe_UsuarioB.jpg"
+      categoria: "Fenología"
+
+    - titulo: "Gestación de la Roya del Café Usuario A"
+      archivo: "GestacionDeLaRoyaDelCafe_UsuarioA.jpg"
+      categoria: "Enfermedad"
+
+    - titulo: "Laboratorio Digital de Cafeticultura Usuario AB"
+      archivo: "LaboratorioDigitalDeCafeticultura_UsuarioAB.jpg"
+      categoria: "Laboratorio"
+
+    - titulo: "Semáforo de la Roya del Café Usuario A"
+      archivo: "SemaforoDeLaRoyaDelCafe_UsuarioA.jpg"
+      categoria: "Aplicación"
+
+  imagenes:
+    hero: "src.jpg"
+    contenido: "src2.jpg"
+    diagrama: "bloquesSRC.png"
+
+  equipo:
+    - nombre: "Dr. Wenceslao Luna"
+      rol: "Investigador Principal"
+      email: "wluna@cua.uam.mx"
+      institucion: "Universidad Autónoma Metropolitana"
+      especialidades: ["Machine Learning", "Agricultura Digital", "Fenología"]
+
+# Metadatos para IndexPage
+aplicacion:
+  label: "Semáforo de la Roya del Café"
+  description: "Aplicación web para estimar la probabilidad de presencia de roya en plantaciones de café"
+  image: "src-icon.png"
+  route: "/Proyecto/SRC"
